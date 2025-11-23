@@ -72,4 +72,4 @@ describe('POST /api/markak', () => {
 
         expect(response.body.message).toContain('validation failed');
     });
-});
+}); 

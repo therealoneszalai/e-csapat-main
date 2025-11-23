@@ -62,4 +62,4 @@ describe('GET /api/markak/:id', () => {
         expect(response.body.marka_nev).toBe('TestMarka');
         expect(response.body.alapitas_ev).toBe(2000);
     });
-});
+}); 
