@@ -1,0 +1,32 @@
+{
+  "name": "e_csapat_backend",
+  "version": "1.0.0",
+  "description": "e-csapat",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "jest --detectOpenHandles"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "mongodb": "^7.0.0",
+    "mongoose": "^8.19.3"
+  },
+  "devDependencies": {
+    "jest": "^30.2.0",
+    "nodemon": "^3.1.11",
+    "supertest": "^7.1.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VorosPeter0501/e-csapat.git"
+  },
+  "bugs": {
+    "url": "https://github.com/VorosPeter0501/e-csapat/issues"
+  },
+  "homepage": "https://github.com/VorosPeter0501/e-csapat#readme"
+}
